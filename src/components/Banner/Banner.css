@@ -1,0 +1,12 @@
+.bg-container {
+  background-color: #ffffff;
+  background-image: url("../../assets/Group\ 7083.png");
+  background-position: top left;
+  background-size: cover;
+}
+
+.bg-overlay {
+  background-color: #06121c;
+  opacity: 0.8;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}

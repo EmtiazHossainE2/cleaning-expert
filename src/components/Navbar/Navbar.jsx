@@ -8,7 +8,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className='container mx-auto flex items-center relative h-20 px-2 md:px-12 bg-zinc-300'>
+    <div className='container mx-auto flex items-center relative h-20 px-2 md:px-12 bg-zinc-300 lg:bg-white'>
       <div className="mr-auto md:hidden">
         <BiMenu className="text-3xl" onClick={() => setOpen(!open)} />
       </div>
