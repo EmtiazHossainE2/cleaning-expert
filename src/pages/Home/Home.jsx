@@ -4,8 +4,10 @@ import Navbar from '../../components/Navbar/Navbar';
 const Home = () => {
   return (
     <div>
-      <Navbar/>
-      <h2>This is home page</h2>
+      <Navbar />
+      <div className='min-h-[80vh]'>
+        <h2>This is home page</h2>
+      </div>
     </div>
   );
 };
