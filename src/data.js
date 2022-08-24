@@ -114,3 +114,76 @@ export const SafetyPrecautions = [
   },
 ]
 
+export const reviewData = [
+  {
+    id : 5011 ,
+    name: 'Vijay',
+    time: 'July 2022 • Noida, Uttar Pradsh 201301, India' ,
+    review : 'Good Knowledge of his job, hard working and well mannered',
+    rating: 5.0,
+  },
+  {
+    id : 5012 ,
+    name: 'Shahriyar',
+    time: 'July 2022 • Noida, Uttar Pradsh 201301, India' ,
+    review : 'Good Knowledge of his job, hard working and well mannered',
+    rating: 4.0,
+  },
+  {
+    id : 5013 ,
+    name: 'Tarek',
+    time: 'July 2022 • Noida, Uttar Pradsh 201301, India' ,
+    review : 'Good Knowledge of his job, hard working and well mannered',
+    rating: 5.0,
+  },
+  {
+    id : 5014 ,
+    name: 'Emtiaz',
+    time: 'July 2022 • Noida, Uttar Pradsh 201301, India' ,
+    review : 'Good Knowledge of his job, hard working and well mannered',
+    rating: 3.5,
+  },
+  {
+    id : 5015 ,
+    name: 'Hossain',
+    time: 'July 2022 • Noida, Uttar Pradsh 201301, India' ,
+    review : 'Good Knowledge of his job, hard working and well mannered',
+    rating: 5.0,
+  },
+  {
+    id : 5016 ,
+    name: 'Barkat',
+    time: 'July 2022 • Noida, Uttar Pradsh 201301, India' ,
+    review : 'Good Knowledge of his job, hard working and well mannered',
+    rating: 4.5,
+  },
+  {
+    id : 5017 ,
+    name: 'Salam',
+    time: 'July 2022 • Noida, Uttar Pradsh 201301, India' ,
+    review : 'Good Knowledge of his job, hard working and well mannered',
+    rating: 4.0,
+  },
+  {
+    id : 5018 ,
+    name: 'Jabbar',
+    time: 'July 2022 • Noida, Uttar Pradsh 201301, India' ,
+    review : 'Good Knowledge of his job, hard working and well mannered',
+    rating: 5.0,
+  },
+  {
+    id : 5019 ,
+    name: 'Karim',
+    time: 'July 2022 • Noida, Uttar Pradsh 201301, India' ,
+    review : 'Good Knowledge of his job, hard working and well mannered',
+    rating: 5.0,
+  },
+  {
+    id : 50110 ,
+    name: 'Rahim',
+    time: 'July 2022 • Noida, Uttar Pradsh 201301, India' ,
+    review : 'Good Knowledge of his job, hard working and well mannered',
+    rating: 4.5,
+  },
+]
+
