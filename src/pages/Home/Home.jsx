@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import Form from '../../components/Form/Form';
 import Navbar from '../../components/Navbar/Navbar';
 import Faq from '../../components/FAQ/Faq'
+import OurService from '../../components/OurService/OurService';
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <Carousel/>
         <CleaningInfo/>
         <Faq/>
+        <OurService/>
         <div className="flex flex-col container mx-auto space-x-6 justify-center items-center py-16">
           <Form />
         </div>

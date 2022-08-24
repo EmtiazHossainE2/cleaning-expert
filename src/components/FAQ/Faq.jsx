@@ -29,7 +29,7 @@ const Faq = () => {
               activeIndex={activeIndex}
               setActiveIndex={setActiveIndex}
             >
-              <p className='container mx-auto lg:px-[300px] text-start '>{f.answer}</p>
+              <p className='container mx-auto md:px-[200px] lg:px-[300px] text-start '>{f.answer}</p>
             </AccordionLayout>
           ))
         }
