@@ -9,6 +9,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Faq from '../../components/FAQ/Faq'
 import OurService from '../../components/OurService/OurService';
 import HowWork from '../../components/HowWork/HowWork';
+import Review from '../../components/Review/Review';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         <Faq />
         <OurService />
         <HowWork />
+        <Review/>
         <div className="flex flex-col container mx-auto space-x-6 justify-center items-center py-16">
           <Form />
         </div>
