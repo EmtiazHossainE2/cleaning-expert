@@ -12,8 +12,7 @@ const Faq = () => {
       .then(data => setFaq(data))
   }, [])
 
-  // console.log(faq[0]?.faq);
-  const showFaq = faq[0]?.faq.slice(0,3)
+  const showFaq = faq[0]?.faq.slice(0,4)
   // console.log(showFaq)
 
   return (

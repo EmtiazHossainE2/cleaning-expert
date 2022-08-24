@@ -9,9 +9,9 @@ const AccordionLayout = ({title,children,index, activeIndex, setActiveIndex }) =
 
   return (
     <>
-      <div  onClick={() => handleSetIndex(index)}  className='flex lg:w-1/2 justify-between p-2 mt-2 rounded bg-gray-500 text-white'>
+      <div  onClick={() => handleSetIndex(index)}  className='flex lg:w-1/2 justify-between p-2 mt-2 rounded bg-[#F6F6F6] cursor-pointer'>
             <div className='flex'>
-                <div className='text-white font-bold'>{title}</div>
+                <div className='text-black font-bold'>{title}</div>
             </div>
             <div className="flex items-center justify-center">
             {
