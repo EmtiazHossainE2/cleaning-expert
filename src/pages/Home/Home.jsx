@@ -6,6 +6,7 @@ import Cta from '../../components/CTA/Cta';
 import Footer from '../../components/Footer/Footer';
 import Form from '../../components/Form/Form';
 import Navbar from '../../components/Navbar/Navbar';
+import Faq from '../../components/FAQ/Faq'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         </div>
         <Carousel/>
         <CleaningInfo/>
+        <Faq/>
         <div className="flex flex-col container mx-auto space-x-6 justify-center items-center py-16">
           <Form />
         </div>
