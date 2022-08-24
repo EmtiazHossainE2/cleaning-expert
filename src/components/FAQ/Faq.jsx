@@ -12,7 +12,7 @@ const Faq = () => {
       .then(data => setFaq(data))
   }, [])
 
-  const showFaq = faq[0]?.faq.slice(0,4)
+  const showFaq = faq[0]?.faq.slice(0, 4)
   // console.log(showFaq)
 
   return (
@@ -23,6 +23,7 @@ const Faq = () => {
         {
           showFaq?.map((f, index) => (
             <AccordionLayout
+            key={index}
               title={f.question}
               index={index}
               activeIndex={activeIndex}

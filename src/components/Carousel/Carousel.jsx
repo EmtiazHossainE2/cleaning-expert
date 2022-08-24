@@ -49,8 +49,8 @@ const Carousel = () => {
           },
         }}
       >
-        {carousel[0]?.carousel.map((caro) => (
-            <SwiperSlide>
+        {carousel[0]?.carousel.map((caro,index) => (
+            <SwiperSlide key={index}>
               <div className="pt-4">
                 <img className="h-60 lg:h-40 w-full" src={caro} alt="" />
               </div>
