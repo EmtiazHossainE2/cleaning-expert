@@ -2,7 +2,7 @@ import React from 'react';
 
 const QuickLink = () => {
   return (
-    <div className='container mx-auto lg:px-[230px]'>
+    <div className='container mx-auto lg:px-[230px] px-5 pb-8'>
       <h2 className='font-[500] text-3xl pt-5'>Quick Links</h2>
       <h3 className='text-[22px] font-[500] pt-5'>Serving in</h3>
       <p className='cursor-pointer'>Ludhiana • Kochi • Kanpur • Agra • Bhopal • Guwahati • Vijayawada • Varanasi • Coimbatore • Thiruvananthapuram • Patna • Raipur • Nashik • Jabalpur • Jamshedpur • Dehradun • Meerut • Ranchi • Prayagraj • Amritsar • Gwalior • Kota • Aurangabad • Mysore • Guntur • Cuttack • Udaipur • Ahmedabad • Bangalore • Chennai • Delhi NCR • Chandigarh Tricity • Jaipur • Hyderabad • Kolkata • Mumbai • Pune • Nagpur • Visakhapatnam • Vadodara • Lucknow • Bhubaneswar • Surat • Indore • Rajahmundry • Madurai • Jodhpur • Kakinada • Warangal • Sonipat • Panipat • Karnal • Rohtak • Alwar </p>

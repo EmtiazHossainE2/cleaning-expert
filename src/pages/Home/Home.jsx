@@ -27,7 +27,7 @@ const Home = () => {
         <HowWork />
         <Review/>
         <QuickLink/>
-        <div className="flex flex-col container mx-auto space-x-6 justify-center items-center py-16">
+        <div className="lg:flex lg:flex-col hidden  container mx-auto space-x-6 justify-center items-center py-16">
           <Form />
         </div>
         <Footer />

@@ -16,7 +16,7 @@ const Faq = () => {
   // console.log(showFaq)
 
   return (
-    <div className='text-center'>
+    <div className='lg:text-center px-5 lg:pz-0'>
       <h2 style={{ fontFamily: 'Montserrat' }} className='text-xl font-bold py-5'>FAQ's Before Home Cleaning Services In Delhi NCR</h2>
 
       <div className='flex flex-col lg:justify-center lg:items-center px-2'>
